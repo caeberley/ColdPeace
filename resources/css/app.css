@@ -1,0 +1,299 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(rgba(148, 226, 244, 1), rgba(255, 255, 255, 1));
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .welcome-message {
+    width: 671px;
+    color: rgba(29,123,205,1);
+    position: absolute;
+    top: 181px;
+    left: 384px;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+  }
+  
+  .form-container {
+    width: 534px;
+    height: 632px;
+    background: rgba(203, 216, 222, 1);
+    position: absolute;
+    top: 299px;
+    left: 453px;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .avatar {
+    width: 91px;
+    height: 91px;
+    background: rgba(251, 249, 233, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 45.5px); /* Centrado en el formulario */
+  }
+  
+  .label {
+    color: rgba(0, 0, 0, 1);
+    font-family: Belleza, sans-serif;
+    font-size: 32px;
+  }
+  
+  .label-username {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+  }
+  
+  .label-password {
+    position: absolute;
+    top: 360px;
+    left: 30px;
+  }
+  
+  .input-field {
+    width: 441px;
+    height: 50px;
+    background: rgba(251, 249, 233, 1);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    left: 30px;
+    border: none;
+  }
+  
+  .username-field {
+    top: 220px;
+  }
+  
+  .password-field {
+    top: 410px;
+    padding-right: 40px; /* Espacio para el icono de ver contraseña */
+  }
+  
+  
+  
+  .submit-button {
+    width: 193px;
+    height: 59px;
+    background: rgba(29, 123, 205, 1);
+    position: absolute;
+    top: 530px;
+    left: calc(50% - 96.5px); /* Centrado en el formulario */
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-text {
+    color: rgba(255, 255, 255, 1);
+    font-family: Bakbak One, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    line-height: 59px;
+  }
+  
+  .logopingu {
+    width: 89px;
+    height: 79px;
+    background: url("../imagensitas/logPingu.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 330px;
+    left: 675px;
+  }
+  
+  
+  .boton {
+    width: 193px;
+    height: 59px;
+    background: rgba(29, 123, 205, 1);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+    
+  }
+  .fondito {
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(rgba(148,226,244,1), rgba(255,255,255,1));
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .RozhaOne {
+    width: 721px;
+    color: rgba(29,123,205,1);
+    position: absolute;
+    top: 200px;
+    left: 359px;
+    font-family: Rozha One;
+    font-weight: Regular;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+  }
+  .BakbakOne {
+    width: 625px;
+    color: rgba(148,182,170,1);
+    position: absolute;
+    top: 257px;
+    left: 407px;
+    font-family: Bakbak One;
+    font-weight: Regular;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+  }
+  .Pingu {
+    width: 591px;
+    height: 591px;
+    background: url("../imagensitas/Pingu.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 347px;
+    left: 160px;
+    overflow: hidden;
+  }
+  
+  
+  /*Botoncitos*/
+  button {
+    background-color: rgba(29,123,205,1);
+    color: rgba(255,255,255,1);
+    border: none;
+    border-radius: 20px;
+    font-family: Bakbak One;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 247px;
+    height: 129px;
+  }
+  
+  .boton2 {
+    top: 703px;
+    left: 888px;
+    z-index: 1;
+  }
+  
+  .boton1 {
+    top: 489px;
+    left: 888px;
+  }
+  
+  .hielo {
+    width: 400px;
+    height: 356px;
+    background: url("../imagensitas/hielito.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 576px;
+    left: 804px;
+    overflow: hidden;
+  }
+  .hielo2 {
+    width: 400px;
+    height: 356px;
+    background: url("../imagensitas/hielito.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 790px;
+    left: 804px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  
+  /* Cabecerita */
+  .Cabecera {
+    width: 100%;
+    height: 134px;
+    background: rgba(202,232,235,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .ColdPeace {
+    width: 345px;
+    color: rgba(133,157,168,1);
+    position: absolute;
+    top: 47px;
+    left: 592px;
+    font-family: Aldrich;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: left;
+  }
+  .logoPP {
+    width: 95px;
+    height: 93px;
+    background: url("../imagensitas/PCpenguin.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 27px;
+    overflow: hidden;
+  }
+  .logoCP {
+    width: 95px;
+    height: 93px;
+    background: url("../imagensitas/ColdPeace.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    right: 27px;
+    overflow: hidden;
+  }
+  
