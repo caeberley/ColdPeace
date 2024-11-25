@@ -21,7 +21,7 @@
         <x-barrita/>
           <div class="centered-container">
             <img src="{{ asset('imagenes/triste.png') }}" alt="Imagen" class="centered-image">
-            <p class="centered-text">Lo siento, seguimos trabajando en este modulo :(</p>
+            <p class="centered-text">hice un cambio :)</p>
         </div>
     </div>
 
